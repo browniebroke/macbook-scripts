@@ -32,16 +32,33 @@ ln -s /usr/local/bin/python3 /usr/local/bin/python
 # Install Postgres
 brew install postgres
 
+# Virtualization
+brew cask install vagrant
+brew cask install virtualbox
+brew cask install virtualbox-extension-pack
+brew cask install docker-toolbox
+brew cask install adobe-photoshop-cc
 
 # Get Homebrew-Cask
 brew tap caskroom/cask
 
-# Install various
-brew cask install google-chrome
-brew cask install slack
-brew cask install spotify
-brew cask install firefox
+# Dev & work:
 brew cask install pycharm
 brew cask install atom
 brew cask install iterm2
 brew cask install insomnia
+brew cask install slack
+
+# File exchange
+brew cask install catch
+brew cask install bittorrent
+brew cask install dropbox
+brew cask install hubic
+
+# Various
+brew cask install google-chrome
+brew cask install firefox
+brew cask install skype
+brew cask install whatsapp
+brew cask install spotify
+brew cask install vlc
