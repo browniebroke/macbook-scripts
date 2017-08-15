@@ -62,3 +62,4 @@ brew cask install skype
 brew cask install whatsapp
 brew cask install spotify
 brew cask install vlc
+brew cask install flux
