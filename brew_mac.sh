@@ -48,6 +48,7 @@ brew cask install atom
 brew cask install iterm2
 brew cask install insomnia
 brew cask install slack
+brew cask install limechat
 
 # File exchange
 brew cask install catch
