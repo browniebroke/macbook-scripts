@@ -1,4 +1,5 @@
 tap "caskroom/cask"
+brew "mas"
 
 # Basic dev
 brew "openssl"
@@ -29,7 +30,6 @@ brew "shellcheck"
 cask "vagrant"
 cask "virtualbox"
 cask "virtualbox-extension-pack"
-cask "docker-toolbox"
 
 # Dev & work
 cask "pycharm"
@@ -55,3 +55,6 @@ cask "vlc"
 cask "flux"
 cask "cerebro"
 cask "krita"
+cask "grammarly"
+
+mas "Xcode", id: 497799835
