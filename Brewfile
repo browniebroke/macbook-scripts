@@ -5,6 +5,8 @@ brew "mas"
 brew "openssl"
 brew "git"
 brew "heroku"
+brew "pipenv"
+brew "pwgen"
 
 # Python interpreters
 brew "python2"
