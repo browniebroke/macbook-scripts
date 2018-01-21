@@ -36,6 +36,7 @@ cask "virtualbox-extension-pack"
 # Dev & work
 cask "pycharm"
 cask "sublime-text"
+cask "visual-studio-code"
 cask "iterm2"
 cask "insomnia"
 cask "slack"
