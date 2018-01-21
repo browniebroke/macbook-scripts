@@ -1,12 +1,15 @@
 tap "caskroom/cask"
 brew "mas"
 
+mas "Xcode", id: 497799835
+
 # Basic dev
 brew "openssl"
 brew "git"
 brew "heroku"
 brew "pipenv"
 brew "pwgen"
+brew "cookiecutter"
 
 # Python interpreters
 brew "python2"
@@ -56,8 +59,11 @@ cask "whatsapp"
 cask "spotify"
 cask "vlc"
 cask "flux"
-cask "cerebro"
+# cask "cerebro"
 cask "krita"
 cask "grammarly"
-
-mas "Xcode", id: 497799835
+cask "spectacle"
+cask "the-unarchiver"
+cask "vanilla"
+cask "licecap"
+cask "gpg-suite"
