@@ -1,4 +1,6 @@
 tap "caskroom/cask"
+tap "heroku/brew"
+
 brew "mas"
 
 mas "Xcode", id: 497799835
@@ -6,7 +8,8 @@ mas "Xcode", id: 497799835
 # Basic dev
 brew "openssl"
 brew "git"
-brew "heroku"
+brew "tree"
+brew "heroku/brew/heroku"
 brew "pipenv"
 brew "pwgen"
 brew "cookiecutter"
@@ -17,6 +20,9 @@ brew "python3"
 brew "pypy"
 brew "pypy3"
 brew "ipython"
+
+# Node 8
+brew "node@8"
 
 # Backup
 brew "mackup"
