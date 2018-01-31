@@ -22,7 +22,8 @@ echo "Do you want to run 'mackup restore' now (y/n)?"
 
 read continue
 
-if [ "$continue" = "y" ]
+
+if [[ "$continue" = "y" ]]
 then
     mackup restore
 fi
