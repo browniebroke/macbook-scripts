@@ -1,3 +1,3 @@
-staging:
+"staging":
   - success: Merged into staging
   - pending: Not fully merged into staging yet!
