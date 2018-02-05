@@ -11,7 +11,9 @@ brew "git"
 brew "tree"
 brew "heroku/brew/heroku"
 brew "pipenv"
+brew "pandoc"
 brew "pwgen"
+brew "awscli"
 brew "cookiecutter"
 
 # Python interpreters
@@ -49,6 +51,7 @@ cask "visual-studio-code"
 cask "iterm2"
 cask "insomnia"
 cask "slack"
+cask "gitter"
 cask "limechat"
 cask "redis-app"
 
