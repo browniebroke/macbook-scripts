@@ -15,6 +15,7 @@ brew "pandoc"
 brew "pwgen"
 brew "awscli"
 brew "cookiecutter"
+brew "travis"
 
 # Python interpreters
 brew "python2"
@@ -32,7 +33,7 @@ brew "wget"
 brew "httpie"
 
 # Databases
-brew "postgres"
+brew "postgresql"
 brew "redis"
 
 # Install bash utilities.
@@ -58,6 +59,7 @@ cask "redis-app"
 # File exchange
 cask "dropbox"
 cask "hubic"
+cask "megasync"
 
 # Various
 cask "1password"
