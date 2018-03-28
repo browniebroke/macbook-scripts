@@ -4,6 +4,7 @@ tap "heroku/brew"
 brew "mas"
 
 mas "Xcode", id: 497799835
+mas "iVinci", id: 566518298 
 
 # Basic dev
 brew "openssl"
@@ -14,7 +15,7 @@ brew "pipenv"
 brew "pandoc"
 brew "pwgen"
 brew "awscli"
-brew "cookiecutter"
+# brew "cookiecutter"
 brew "travis"
 
 # Python interpreters
