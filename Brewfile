@@ -10,6 +10,7 @@ mas "iVinci", id: 566518298
 brew "openssl"
 brew "git"
 brew "tree"
+brew "htop"
 brew "heroku/brew/heroku"
 brew "pipenv"
 brew "pandoc"
@@ -17,6 +18,7 @@ brew "pwgen"
 brew "awscli"
 # brew "cookiecutter"
 brew "travis"
+brew "autojump"
 
 # Python interpreters
 brew "python2"
