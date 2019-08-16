@@ -7,8 +7,8 @@ tap "homebrew/services"
 
 brew "mas"
 
-mas "Xcode", id: 497799835
-mas "iVinci", id: 566518298 
+# mas "Xcode", id: 497799835
+# mas "iVinci", id: 566518298 
 # mas "GarageBand", id: 682658836
 # mas "Keynote", id: 409183694
 # mas "Numbers", id: 409203825
