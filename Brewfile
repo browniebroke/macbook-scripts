@@ -1,10 +1,19 @@
-tap "caskroom/cask"
 tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-versions"
+tap "homebrew/core"
+tap "homebrew/services"
 
 brew "mas"
 
 mas "Xcode", id: 497799835
 mas "iVinci", id: 566518298 
+# mas "GarageBand", id: 682658836
+# mas "Keynote", id: 409183694
+# mas "Numbers", id: 409203825
+# mas "Pages", id: 409201541
+# mas "iMovie", id: 408981434
 
 # Basic dev
 brew "openssl"
@@ -16,19 +25,12 @@ brew "pipenv"
 brew "pandoc"
 brew "pwgen"
 brew "awscli"
-# brew "cookiecutter"
+brew "cookiecutter"
 brew "travis"
 brew "autojump"
-
-# Python interpreters
-brew "python2"
-brew "python3"
-brew "pypy"
-brew "pypy3"
-brew "ipython"
-
-# Node 8
-brew "node@8"
+brew "node"
+brew "nvm"
+brew "pyenv"
 
 # Backup
 brew "mackup"
@@ -36,21 +38,15 @@ brew "wget"
 brew "httpie"
 
 # Databases
-brew "postgresql"
+# brew "postgresql", restart_service: true
 brew "redis"
 
 # Install bash utilities.
 brew "bats"
 brew "shellcheck"
 
-# Virtualization
-cask "vagrant"
-cask "virtualbox"
-cask "virtualbox-extension-pack"
-
 # Dev & work
 cask "pycharm"
-cask "sublime-text"
 cask "visual-studio-code"
 cask "iterm2"
 cask "insomnia"
@@ -58,11 +54,15 @@ cask "slack"
 cask "gitter"
 cask "limechat"
 cask "redis-app"
+cask "docker"
+cask "figma"
+brew "exercism"
+# brew "terraform"
+brew "gdal"
 
 # File exchange
 cask "dropbox"
 cask "hubic"
-cask "megasync"
 
 # Various
 cask "1password"
@@ -76,8 +76,8 @@ cask "cerebro"
 cask "krita"
 cask "grammarly"
 cask "spectacle"
-cask "beardedspice"
 cask "the-unarchiver"
 cask "licecap"
 cask "gpg-suite"
 cask "ipvanish-vpn"
+cask "webtorrent"
