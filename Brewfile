@@ -59,6 +59,7 @@ cask "figma"
 brew "exercism"
 # brew "terraform"
 brew "gdal"
+cask "go2shell"
 
 # File exchange
 cask "dropbox"
