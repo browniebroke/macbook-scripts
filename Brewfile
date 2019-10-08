@@ -14,6 +14,7 @@ brew "mas"
 # mas "Numbers", id: 409203825
 # mas "Pages", id: 409201541
 # mas "iMovie", id: 408981434
+# mas "LimeChat", id: 414030210 
 
 # Basic dev
 brew "openssl"
@@ -52,8 +53,7 @@ cask "iterm2"
 cask "insomnia"
 cask "slack"
 cask "gitter"
-cask "limechat"
-cask "redis-app"
+# cask "redis-app"
 cask "docker"
 cask "figma"
 brew "exercism"
