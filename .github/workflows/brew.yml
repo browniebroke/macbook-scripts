@@ -10,4 +10,4 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Brew Mac
-      run: ./brew_mac.sh
+      run: ./brew_mac.sh < echo "n"
