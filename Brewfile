@@ -29,7 +29,6 @@ brew "awscli"
 brew "cookiecutter"
 brew "travis"
 brew "autojump"
-brew "node"
 brew "nvm"
 brew "pyenv"
 
