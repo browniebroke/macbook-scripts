@@ -81,3 +81,5 @@ cask "licecap"
 cask "gpg-suite"
 cask "ipvanish-vpn"
 cask "webtorrent"
+cask "plex-media-server"
+
