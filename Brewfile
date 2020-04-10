@@ -30,6 +30,8 @@ brew "travis"
 brew "autojump"
 brew "nvm"
 brew "pyenv"
+brew "ipython"
+brew "jupyterlab"
 brew "coreutils"
 
 # Backup
