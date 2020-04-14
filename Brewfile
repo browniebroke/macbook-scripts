@@ -19,6 +19,7 @@ brew "mas"
 # Basic dev
 brew "openssl"
 brew "git"
+brew "gh"
 brew "tree"
 brew "htop"
 brew "heroku/brew/heroku"
