@@ -65,7 +65,6 @@ cask "go2shell"
 
 # File exchange
 cask "dropbox"
-cask "hubic"
 
 # Various
 cask "1password"
