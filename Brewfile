@@ -27,7 +27,6 @@ brew "pandoc"
 brew "pwgen"
 brew "awscli"
 brew "cookiecutter"
-brew "travis"
 brew "autojump"
 brew "nvm"
 brew "pyenv"
@@ -35,7 +34,12 @@ brew "ipython"
 brew "jupyterlab"
 brew "coreutils"
 brew "wget"
+
+# better unix tools
 brew "httpie"
+brew "duf"
+brew "dust"
+brew "ripgrep"
 
 # Backup
 brew "mackup"
