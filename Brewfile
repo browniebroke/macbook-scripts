@@ -4,6 +4,7 @@ tap "homebrew/cask"
 # tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "github/gh"
 
 brew "mas"
 
@@ -17,6 +18,7 @@ brew "mas"
 # mas "LimeChat", id: 414030210 
 
 # Basic dev
+brew "bash"
 brew "openssl"
 brew "git"
 brew "gh"
@@ -29,11 +31,19 @@ brew "awscli"
 brew "cookiecutter"
 brew "autojump"
 brew "nvm"
+brew "pipx"
 brew "pyenv"
 brew "ipython"
 brew "jupyterlab"
 brew "coreutils"
 brew "wget"
+brew "jq"
+brew "rich-cli"
+brew "go"
+brew "ruby"
+brew "wagoodman/dive/dive"
+brew "withgraphite/tap/graphite"
+
 
 # better unix tools
 brew "httpie"
@@ -53,7 +63,7 @@ brew "bats"
 brew "shellcheck"
 
 # Dev & work
-cask "pycharm"
+cask "jetbrains-toolbox"
 cask "visual-studio-code"
 cask "iterm2"
 cask "insomnia"
@@ -72,14 +82,14 @@ cask "dropbox"
 
 # Various
 cask "1password"
+cask "1password-cli"
 cask "google-chrome"
 cask "firefox"
-cask "skype"
+cask "discord"
 cask "whatsapp"
 cask "spotify"
 cask "vlc"
 cask "krita"
-cask "grammarly"
 cask "rectangle"
 cask "the-unarchiver"
 cask "licecap"
@@ -87,3 +97,11 @@ cask "gpg-suite"
 cask "webtorrent"
 cask "cryptomator"
 cask "expressvpn"
+cask "daisydisk"
+
+# Fonts
+cask "font-fira-mono-for-powerline"
+cask "font-ubuntu-mono"
+cask "font-jetbrains-mono"
+cask "font-cascadia-mono"
+cask "font-roboto-mono"
